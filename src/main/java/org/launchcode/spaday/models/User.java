@@ -2,9 +2,18 @@ package org.launchcode.spaday.models;
 
 public class User {
 
+    private int id;
     private String username;
     private String email;
     private String password;
+
+    public int getId() {
+        return id;
+    }
+
+    private void setId(int id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;
