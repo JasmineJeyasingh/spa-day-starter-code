@@ -24,3 +24,27 @@ table {
             padding: 10px;
             text-align: center;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nail-polish-box {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.red-polish {
+    background-color: red;
+}
+
+.pink-polish {
+    background-color: black;
+}
+
+.orange-polish {
+    background-color: orange;
+}
